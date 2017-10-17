@@ -22,9 +22,8 @@ After this it monitors for more incoming packets that meet the port sequence. Th
 Even though all cURL binary packages are present by default for running the backdoor, I need the "libcurl4-openssl-dev" package which contains the cURL header files for a successful build.  
   
   
-## Makefile:
-This is a simple makefile to build both the knocker and backdoor.
-  
+## Deliverables:
+The repo contains a simple [Makefile](Makefile) to build both the [knocker](knocker.cpp) and [backdoor](backdoor.cpp).
   
 ## References:
 [1] Advanced TCP/IP - THE RAW SOCKET PROGRAM EXAMPLES - http://www.tenouk.com/Module43a.html  
